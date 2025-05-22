@@ -227,3 +227,11 @@ interface ProductDetailResponse {
 ### 7. theme/
 
 ...
+
+### 8. others
+
+...
+
+# Common convention
+
+[29CM FE Convention](https://github.com/Sotatek-SonLai/29cm-fe-convension)
