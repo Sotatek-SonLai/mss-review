@@ -122,6 +122,12 @@ react-app-template/
 
 - Styled Components: khách hàng MSS đang có xu hướng không muốn sử dụng CSS-in-JS (viết CSS trong JavaScript) mà muốn sử dụng utility-first CSS như tailwindcss kết hợp với ant design để sử dụng cho spacing, color, typography, sizing,...
 
+- Hạn chế: style inline
+
+```tsx
+<div style={{ color: "red", fontSize: "16px" }}>Hello</div>
+```
+
 ## Packages cần cài thêm và khuyến khích:
 
 - Husky: Git hooks
@@ -212,6 +218,7 @@ interface ProductDetailResponse {
   - 500 (Internal Server Error)
   - ...
   - /dev page: nơi viết những example code cho các components
+- prefix folder name: [name]-page: ví dụ: product-page, user-page, ...
 
 ### 6. stores/
 
